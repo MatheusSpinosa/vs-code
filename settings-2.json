@@ -135,7 +135,16 @@
   "git.openRepositoryInParentFolders": "always",
   "symbols.hidesExplorerArrows": false,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "console-ninja.featureSet": "Community",
   "workbench.editor.empty.hint": "hidden",
@@ -193,5 +202,6 @@
     "textMateRules": []
   },
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Min Dark"
+  "workbench.colorTheme": "Min Dark",
+  "files.autoSaveDelay": 500
 }
