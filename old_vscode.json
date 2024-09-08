@@ -1,0 +1,157 @@
+{
+  "terminal.integrated.fontSize": 14,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 26,
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": false,
+    "**/node_modules": false,
+    "**/bower_components": true,
+    "**/dist": false
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": false,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/.expo/**": true
+  },
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.rulers": [
+    120,
+    120
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "liveshare.featureSet": "insiders",
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "telegram": "Tools",
+    "stores": "Store",
+    "hoc": "Container",
+    "hocs": "Container",
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.userWords": [
+    "Asaas",
+    "Buup",
+    "dtos",
+    "IBMC",
+    "originalname",
+    "tsyringe"
+  ],
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+  // "[prisma]": {
+  //   "editor.formatOnSave": true,
+  // },
+  "workbench.editorAssociations": {
+    "viewType": "jupyter.notebook.ipynb",
+    "filenamePattern": "*.ipynb"
+  },
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[css]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[json]": {
+  //   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  // },
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  // },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  // },
+  // "prettier.requireConfig": true,
+  "eslint.format.enable": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "search.followSymlinks": false,
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "cSpell.enableFiletypes": [
+    "!jsonc"
+  ],
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "gitlens.views.branches.branches.layout": "list",
+  "terminal.integrated.env.osx": {},
+}
