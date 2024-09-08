@@ -30,6 +30,16 @@
     ".env.local": "gear",
     ".env.example": "gear"
   },
+  "symbols.folders.associations": {
+    "dtos": "folder-interfaces",
+    "middlewares": "folder-middlewares",
+    "hocs": "folder-interceptors",
+    "hooks": "folder-utils",
+    "langs": "folder-yellow",
+    "screens": "folder-pink-code",
+    "pages": "folder-pink-code",
+    "@types": "folder-blue-outline"
+  },
   "tailwindCSS.experimental.classRegex": [
     [
       "tv\\(([^)]*)\\)",
@@ -127,14 +137,11 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "console-ninja.featureSet": "Community",
   "workbench.editor.empty.hint": "hidden",
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
-  "workbench.activityBar.location": "hidden",
+  // "workbench.activityBar.location": "hidden",
   "apc.activityBar": {
     "position": "bottom",
     "hideSettings": true,
@@ -181,10 +188,10 @@
     ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": []
   },
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Catppuccin Latte"
+  "workbench.colorTheme": "Min Dark"
 }
